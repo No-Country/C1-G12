@@ -38,8 +38,8 @@ $ create-react-app
 Se configura el entorno virtual para aislar la aplicación, el uso de la herramienta `virtualenv` nos ayuda a manejar las versiones de las dependencias de forma eficiente:
 
 ```sh
-$ python3.8 -m venv .ENV/medicalenv
-$ source .ENV/medicalenv/bin/activate
+$ python3.8 -m venv .env
+$ source .env/bin/activate
 $ pip install -r requirements.txt
 ```
 
